@@ -16,6 +16,9 @@
   padding-left: 240px;
 }
 
+.body{
+  font-family: 'Noto Serif TC', serif;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;

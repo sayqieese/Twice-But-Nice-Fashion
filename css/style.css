@@ -1,23 +1,27 @@
- .html{
-  width: 100%;
+html{
+  width: 100% !important;
   height: auto;
 }
+
+*{margin:0 ;padding:0}
 
 .header{
  font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-size: 20px;
   color: #724E52;
+  padding-top: 26px;
 }
 
 .topnav {
   background-color: #d4bfba;
   overflow: hidden;
   padding-left: 240px;
+  margin-top: 26px;
 }
 
 .body{
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -28,7 +32,7 @@
   padding-left: 100px;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
 }
 
 
@@ -67,7 +71,7 @@
   font-size: 20px;
   padding: 20px;
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -104,7 +108,7 @@
   font-size: 20px;
   padding: 20px;
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -141,7 +145,7 @@
   font-size: 20px;
   padding: 20px;
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -168,7 +172,7 @@
 
 .pop_1 h1{
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   font-size: 30px;
   padding-top:50px;
   color: #724e52!important;
@@ -179,7 +183,7 @@
 }
 .new_title h1{
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   font-size: 30px;
   padding-top: 50px;
   color: #724e52!important;
@@ -211,22 +215,25 @@
 
 #word1{
   font-size: 18px;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   width: 300px;
   color: #625b57;
+  line-height: 25px;
   margin-top: 5px;
 }
 
 #word2{
   font-size: 18px;
-  font-family: 'Noto Serif TC', serif;
+  line-height: 25px;
+  font-family: STHeiti;
   margin-top: 45px;
   color: #625b57;
 }
 
 #word3{
   font-size: 18px;
-  font-family: 'Noto Serif TC', serif;
+  line-height: 25px;
+  font-family: STHeiti;
   margin-top: 45px;
   color: #625b57;
 }
@@ -234,7 +241,7 @@
 
 .out_1 h1{
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: STHeiti;
   font-size: 30px;
   padding-top: 50px;
   color: #724e52!important;
@@ -253,151 +260,79 @@
     font-family: 'Abril Fatface', cursive;
 }
 
-/*翻轉卡片1*/
-.body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
- 
-.card-container1 {
-    width: 300px;
-    height: 300px;
-    padding-left: 130px;
-}
- 
-.card-inner1 {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 1.5s;
-    transform-style: preserve-3d;
-}
- 
-.card-container1:hover .card-inner1 {
-    cursor: pointer;
-    transform: rotateY(180deg);
-}
- 
-.card-imgouter1 {
-    position: absolute;
-    backface-visibility: hidden;
-}
- 
-.card-img1 {
-    border-radius: 6px;
-    width: 300px;
-    height: 300px;
-}
- 
-.card-content1 {
-    position: absolute;
-    background-color: #d4bfba;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    line-height: 300px;
-    font-size: 22px;
-    font-family: 'Noto Serif TC', serif;
-    color: #625b57;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.contain {
+  position: relative;
+  padding-left: 130px;
+  max-width: 300px;
 }
 
-/*翻轉卡片2*/
-.card-container2 {
-    width: 300px;
-    height: 300px;
-    padding-left: 130px;
-}
- 
-.card-inner2 {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 1.5s;
-    transform-style: preserve-3d;
-}
- 
-.card-container2:hover .card-inner2 {
-    cursor: pointer;
-    transform: rotateY(180deg);
-}
- 
-.card-imgouter2 {
-    position: absolute;
-    backface-visibility: hidden;
-}
- 
-.card-img2 {
-    border-radius: 6px;
-    width: 300px;
-    height: 300px;
-}
- 
-.card-content2 {
-    position: absolute;
-    background-color: #d4bfba;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    line-height: 300px;
-    font-size: 22px;
-    font-family: 'Noto Serif TC', serif;
-    color: #625b57;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: auto;
 }
 
-/*翻轉卡片3*/
-.card-container3 {
-    width: 300px;
-    height: 300px;
-    padding-left: 130px;
-}
- 
-.card-inner3 {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 1.5s;
-    transform-style: preserve-3d;
-}
- 
-.card-container3:hover .card-inner3 {
-    cursor: pointer;
-    transform: rotateY(180deg);
-}
- 
-.card-imgouter3 {
-    position: absolute;
-    backface-visibility: hidden;
-}
- 
-.card-img3 {
-    border-radius: 6px;
-    width: 300px;
-    height: 300px;
-}
- 
-.card-content3 {
-    position: absolute;
-    background-color: #d4bfba;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    line-height: 300px;
-    font-family: 'Noto Serif TC', serif;
-    font-size: 22px;
-    color: #625b57;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 5px;
+  left: 130px;
+  right: 0px;
+  background: rgb(178,164,155,0.8);
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  transform: scale(0);
+  transition: .3s ease;
 }
 
-.outside{
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.contain:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.contain1 {
+  position: relative;
+  max-width: 300px;
+  padding-left: 130px;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.contain1:hover .overlay {
+  transform: scale(1);
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.contain2 {
+  position: relative;
+  width: 300px;
+  padding-left: 130px;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.contain2:hover .overlay {
+  transform: scale(1);
+}
+
+.what{
   display: flex;
+  margin-bottom: 0px;
   padding-top: 50px;
-  vertical-align: middle;
-  padding-bottom: 50px;
 }
+

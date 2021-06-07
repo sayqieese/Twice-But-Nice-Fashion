@@ -18,6 +18,7 @@ html{
   overflow: hidden;
   padding-left: 240px;
   margin-top: 26px;
+  margin-bottom: 40px;
 }
 
 .body{
@@ -162,18 +163,21 @@ html{
 
 .img1{
    padding-left: 130px;
+   padding-top: 40px;
 }
 .img2 {
   padding-left: 130px;
+  padding-top: 40px;
 }
 .img3{
   padding-left: 125px;
+  padding-top: 40px;
 }
 
 .pop_1 h1{
   text-align: center;
   font-family: STHeiti;
-  font-size: 30px;
+  font-size: 40px;
   padding-top:50px;
   color: #724e52!important;
 }
@@ -184,8 +188,9 @@ html{
 .new_title h1{
   text-align: center;
   font-family: STHeiti;
-  font-size: 30px;
-  padding-top: 50px;
+  font-size: 40px;
+  padding-top: 60px;
+  margin-top: 80px;
   color: #724e52!important;
 }
 
@@ -193,8 +198,8 @@ html{
   display: flex;
   text-align: left;
   padding-left: 150px;
-  padding-top:40px;
-  padding-bottom: 50px;
+  padding-top:80px;
+  padding-bottom: 80px;
 }
 
 .new_2{
@@ -219,14 +224,14 @@ html{
   width: 300px;
   color: #625b57;
   line-height: 25px;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 #word2{
   font-size: 18px;
   line-height: 25px;
   font-family: STHeiti;
-  margin-top: 45px;
+  margin-top: 40px;
   color: #625b57;
 }
 
@@ -234,7 +239,7 @@ html{
   font-size: 18px;
   line-height: 25px;
   font-family: STHeiti;
-  margin-top: 45px;
+  margin-top: 40px;
   color: #625b57;
 }
 
@@ -242,11 +247,14 @@ html{
 .out_1 h1{
   text-align: center;
   font-family: STHeiti;
-  font-size: 30px;
-  padding-top: 50px;
+  font-size: 40px;
+  padding-top: 60px;
   color: #724e52!important;
 }
 
+.out{
+  margin-top: 60px;
+}
 
 .footer {
     margin-top: 50px;
@@ -267,6 +275,8 @@ html{
   position: relative;
   padding-left: 130px;
   max-width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Make the image to responsive */
@@ -311,6 +321,8 @@ html{
   position: relative;
   max-width: 300px;
   padding-left: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* When you mouse over the container, the overlay text will "zoom" in display */
@@ -323,6 +335,8 @@ html{
   position: relative;
   width: 300px;
   padding-left: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* When you mouse over the container, the overlay text will "zoom" in display */
